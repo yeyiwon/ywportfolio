@@ -1,9 +1,8 @@
 # ywportfolio
-종합포트폴리오.
 
 ![header](https://capsule-render.vercel.app/api?type=Soft&color=F1B4BB&height=150&section=header&text=YE_2W&fontSize=80&fontColor=132043&animation=blink)
 
-# 🐈 예이원 종합포트폴리오 
+## 🐈 예이원 종합포트폴리오 
 
 ![종합사이트1.png](img%2F%EC%A2%85%ED%95%A9%EC%82%AC%EC%9D%B4%ED%8A%B81.png)
 
