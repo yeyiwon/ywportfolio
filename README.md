@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=Soft&color=F1B4BB&height=200&section=header&text=YE%202W&fontSize=80&fontColor=132043&animation=blink)
+![header](https://capsule-render.vercel.app/api?type=Soft&color=F1B4BB&height=150&section=header&text=YE%202W&fontSize=80&fontColor=132043&animation=blink)
 
 # 🐈 예이원 종합포트폴리오 
 
@@ -7,17 +7,18 @@
 ### 목차
 <b>
 
-- [개요](#프로젝트--개인-종합-포트폴리오-)
 
-- [페이지 구성](#-페이지-구성-)
+- [개요](#-프로젝트--개인-종합-포트폴리오)
 
-- [시연 영상](#-시연-영상-)
+- [페이지 구성](#-페이지-구성)
+
+- [시연 영상](#-시연-영상)
 
 </b>
 
 ---
 
-## 🍀프로젝트 : 개인 종합 포트폴리오 
+## 🍀 프로젝트 : 개인 종합 포트폴리오
 
 
     - 기획 및 제작: 예이원
