@@ -36,8 +36,7 @@
 ![aboutme.png](img%2Faboutme.png)
 
 - ### STACK 📊 
-![chart.png](chart.png)
-
+![chart.png](img%2Fchart.png)
 - ### DEMO 🐈
 ![demo1.png](img%2Fdemo1.png)
 
