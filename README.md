@@ -1,7 +1,7 @@
 # ywportfolio
 종합포트폴리오.
 
-![header](https://capsule-render.vercel.app/api?type=Soft&color=F1B4BB&height=200&section=header&text=YE%202W&fontSize=80&fontColor=132043&animation=blink)
+![header](https://capsule-render.vercel.app/api?type=Soft&color=F1B4BB&height=150&section=header&text=YE%202W&fontSize=80&fontColor=132043&animation=blink)
 
 # 🐈 예이원 종합포트폴리오 
 
