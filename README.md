@@ -1,8 +1,6 @@
-# ywportfolio
+![header](https://capsule-render.vercel.app/api?type=Soft&color=F1B4BB&height=280&section=header&text=YE%202W&fontSize=80&fontColor=132043&animation=blink)
 
-![header](https://capsule-render.vercel.app/api?type=Soft&color=F1B4BB&height=150&section=header&text=YE_2W&fontSize=80&fontColor=132043&animation=blink)
-
-## 🐈 예이원 종합포트폴리오 
+# 🐈 예이원 종합포트폴리오 
 
 ![종합사이트1.png](img%2F%EC%A2%85%ED%95%A9%EC%82%AC%EC%9D%B4%ED%8A%B81.png)
 
@@ -37,6 +35,9 @@
 - ### ABOUT ME 🙈
 ![aboutme.png](img%2Faboutme.png)
 
+- ### STACK 📊 
+![chart.png](chart.png)
+
 - ### DEMO 🐈
 ![demo1.png](img%2Fdemo1.png)
 
@@ -47,8 +48,10 @@
 
 ---
 
-## 👀 시연 영상 
-![전체 영상.gif](img%2F%EC%A0%84%EC%B2%B4%20%EC%98%81%EC%83%81.gif)
+## 👀 시연 영상
+![시연영상1.gif](img%2F%EC%8B%9C%EC%97%B0%EC%98%81%EC%83%811.gif)
 
+<br>
 
+![시연영상2.gif](img%2F%EC%8B%9C%EC%97%B0%EC%98%81%EC%83%812.gif)
 
