@@ -1,4 +1,4 @@
-<img src = "https://capsule-render.vercel.app/api?type=waving&color=0:ef6262,120:ffffff&height=180&section=header&text=YE%202_WON&fontSize=32&animation=fadeln&fontAlignY=36&fontColor=ffffff"/>
+![header](https://capsule-render.vercel.app/api?type=slice&color=gradient&height=200&section=header&text=YE_2W&fontSize=100)
 
 # 🐈 예이원 종합포트폴리오 
 
