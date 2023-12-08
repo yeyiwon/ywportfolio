@@ -35,25 +35,23 @@
 
 ## 👀 페이지 구성 
 
-- ### ABOUT ME 🙈
+- ## ABOUT ME 🙈
 ![aboutme.png](img%2Faboutme.png)
 
-- ### STACK 📊 
+- ## STACK 📊 
 ![chart.png](img%2Fchart.png)
 
 #### 시연 영상🎬
 ![시연영상1.gif](img%2F%EC%8B%9C%EC%97%B0%EC%98%81%EC%83%811.gif)
 
-- ### DEMO 🐈
+- ## DEMO 🐈
 ![demo1.png](img%2Fdemo1.png)
 
-- ### CONTACT 🔥
+- ## CONTACT 🔥
 ![contact.png](img%2Fcontact.png)
 
 #### 시연 영상🎬
 ![시연영상2.gif](img%2F%EC%8B%9C%EC%97%B0%EC%98%81%EC%83%812.gif)
-
-<br>
 
 ---
 
