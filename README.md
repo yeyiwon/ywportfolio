@@ -1,5 +1,7 @@
 ![header](https://capsule-render.vercel.app/apitype=slice&color=0:dda286,100:82b6c6&height=200&section=header&text=YE_2W&fontSize=100)
 
+# [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=HELLO+This+is+YE+YIWON+README;THANKYOU+FOR+VISITING)](https://git.io/typing-svg)
+
 # 🐈 예이원 종합포트폴리오 
 
 ![종합사이트1.png](img%2F%EC%A2%85%ED%95%A9%EC%82%AC%EC%9D%B4%ED%8A%B81.png)
