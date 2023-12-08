@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=slice&color=0:dda286, 50:b77fca, 100:82b6c6&height=200&section=header&text=YE_2W&fontSize=100)
+![header](https://capsule-render.vercel.app/apitype=slice&color=0:dda286,100:82b6c6&height=200&section=header&text=YE_2W&fontSize=100)
 
 # 🐈 예이원 종합포트폴리오 
 
