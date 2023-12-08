@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/apitype=slice&color=gradient&height=200&section=header&text=YE_2W&fontSize=100)
+![header](https://capsule-render.vercel.app/api?type=slice&color=timeGradient&text=Welcome%20to%20YE_2W%20GitHub%20👋&animation=twinkling&fontSize=35&fontAlignY=40&fontAlign=70&height=250)
 
 # [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=HELLO+This+is+YE+YIWON+README;THANKYOU+FOR+VISIT)](https://git.io/typing-svg)
 
