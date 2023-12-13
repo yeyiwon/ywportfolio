@@ -56,7 +56,7 @@ a{text-decoration: none;color: inherit;}
 .texttt{
     opacity: 0.2;
     font-weight: bold;
-    font-size: 170px;
+    font-size: 160px;
     color: #333;
     position: absolute;
     left: 100%;
@@ -76,6 +76,7 @@ a{text-decoration: none;color: inherit;}
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background: url(../img/background/3dballoon.jpg) no-repeat center / cover;
 }
 
@@ -83,13 +84,13 @@ a{text-decoration: none;color: inherit;}
 .yeyiwon {
     display: flex;
     width: 100%;
-    height: 50%;
+    /* height: 50%; */
     align-items: flex-end;
 }
 .yeyiwon2{
     display: flex;
     width: 100%;
-    height: 50%;
+    /* height: 50%; */
     align-items: flex-start;
 }
 
@@ -99,8 +100,11 @@ a{text-decoration: none;color: inherit;}
 }
 
 .yeyiwonimg{
-    width: 200px;
-    height: 200px;
+    width: 10em;
+    height: 10em;
+}
+.yeyiwon3{
+    display: none;
 }
 
 .nav{
@@ -179,30 +183,24 @@ a{text-decoration: none;color: inherit;}
 .sec0, .sec1, .sec2, .sec3, .sec4{display: flex;overflow: hidden;box-sizing: border-box;position: relative;flex-direction: column;}
 /* 섹션 1 */
 .sec1_box{
-    width: 80%;
+    width: 100%;
     height: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     display: flex;
+    justify-content: center;
 }
 
 .sec1_L{
+    display: flex;
     width: 50%;
     height: 100%;
-    position: relative;
-    overflow: hidden;
+    align-items: center;
+    justify-content: center;
 }
 
 .sec1_L_img{
     width: 80%;
     height: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 30px;
     background: url(../img/cute/rabbit1.png) no-repeat center / cover;
     box-shadow: 3px 44px 32px rgba(0, 0, 0, 0.4);
@@ -218,7 +216,7 @@ a{text-decoration: none;color: inherit;}
     height: 100%;
 }
 .sec1_R_h1{
-    opacity: 0.8;
+    opacity: 0.5;
     line-height: 50px;
     letter-spacing: -5px;
     font-weight: 900;
@@ -297,9 +295,11 @@ a{text-decoration: none;color: inherit;}
     box-sizing: border-box;
     margin: 0 auto;
     width: 90%;
+    min-width: 780px;
     height: 90%;
     padding: 1rem;
     display: flex;
+    justify-content: center;
 }
 .skill_chart_L {
     display: flex;
@@ -425,7 +425,7 @@ a{text-decoration: none;color: inherit;}
 /* sec3 시작 */
 .sec3box{
     margin: 30px auto;
-    width: 90%;
+    width: 85%;
     height: 90%;
     gap: 30px;
     display: flex;
@@ -433,7 +433,7 @@ a{text-decoration: none;color: inherit;}
 }
 .sec3box2{
     margin: 30px auto;
-    width: 95%;
+    width: 85%;
     height: 90%;
     gap: 30px;
     display: flex;
@@ -446,7 +446,7 @@ a{text-decoration: none;color: inherit;}
     padding: 1rem;
     border-radius: 15px;
     width: 95%;
-    height: 200px;
+    /* height: 200px; */
     display: flex;
     gap: 20px;
     flex-direction: row;
@@ -611,7 +611,7 @@ input {background-color: rgba(255, 255, 255, 0);}
 .indi_active{background: #333;opacity: 0.8;}
 .indi2_active{background: #333;opacity: 0.8;}
     .linkbtn{
-        width: 150px;
+        width: 140px;
         height: 55px;
         text-align: center;
         font-size: 20px;
@@ -698,7 +698,6 @@ input {background-color: rgba(255, 255, 255, 0);}
 }
 
 .sec3R{
-    width: 300px;
     display: flex;
     gap: 20px;
     align-items: baseline;
@@ -727,7 +726,127 @@ input {background-color: rgba(255, 255, 255, 0);}
 
 
 @media (max-width: 780px){
+.mainL{display: none;}
+.mainR{width: 100%;height: 100%;}
+.yeyiwon3{display: block;display: flex;}
+.yeyiwonimg {width: 5em;height: 5em;}
+.icon{width: 5em;height: 5em;}
+.icon6, .icon7, .icon9, .icon11{display: none;}
+.sec_nav {
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0px 0px 15px 15px;}
+.sec_nav_bar {
+    height: 100px;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;}
+.sec_nav_bar > li > a {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.sec1_box {
+    width: 100%;
+    overflow: hidden;
+    display: flex;}
+
+.sec1_L{width: 50%;}
+
+.sec1_L_img {
+    width: 100%;
+    height: 100%;}
+
+.sec1_R{width: 50%;}
+
+.sec1_R_h1 {font-size: 2.5em;}
+.ttt {font-size: 1.3em;}
+
+.sec2_box {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;}
+
+    .skill_chart_R {
+    width: 95%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.skill_chart_R {
+    width: 95%;}
+
+.skbot {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skbot > li img {
+    width: 50px;
+    height: 50px;
+}
+
+.sec3box {width: 100%;height: 100%}
+.sec3box2 {width: 100%;height: 100%;}
+.sec3boxR{display: flex;flex-direction: column;}
+.sec3title {font-size: 22px;}
+.sec31 {font-size: 20px;}
+.sec3p {font-size: 16px;}
+
+.sec3R{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
 
 }
-    
+.sec3boxR{
+    display: flex;
+    flex-direction: row;
+}
 
+
+.linkbtn {
+    width: 100px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 45px;
+}
+
+.top_btn {
+    width: 60px;
+    height: 70px;
+}
+
+.item_box {
+    margin-top: 50px;
+    padding: 1rem;
+    width: 100%;
+    gap: 30px;
+    color: #444;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.item {
+    width: clac((100% - 50px ) / 2);
+    height: 100%;
+}
+.item a img{
+    width: 150px;
+    height: 150px;
+    animation: bounce3 1s infinite alternate;
+}
+
+}
