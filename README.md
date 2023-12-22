@@ -4,7 +4,7 @@
 
 # 🐈 예이원 종합포트폴리오 
 
-![1.png]
+![1.png](img%2F1.png)
 
 ### 목차
 <b>
@@ -34,19 +34,21 @@
 ## 👀 페이지 구성 
 
 - ## ABOUT ME 🙈
-![2.png]
+![2.png](img%2F2.png)
 
 - ## STACK 📊 
-![3.png]
-
+![3.png](img%2F3.png)
 
 - ## DEMO 🐈
-![4.png]
+![5.png](img%2F5.png)
+![6.png](img%2F6.png)
 
 - ## CONTACT 🔥
-![5.png]
+![7.png](img%2F7.png)
 
 #### 시연 영상🎬
+
+
 ---
 
 
