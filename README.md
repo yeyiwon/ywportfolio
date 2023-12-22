@@ -4,7 +4,7 @@
 
 # 🐈 예이원 종합포트폴리오 
 
-![1.png](..%2F..%2F..%2F..%2FIdeaProjects%2Fhomepage%2Fsrc%2Fimg%2F1.png)
+![1.png]
 
 ### 목차
 <b>
@@ -34,17 +34,17 @@
 ## 👀 페이지 구성 
 
 - ## ABOUT ME 🙈
-![2.png](..%2F..%2F..%2F..%2FIdeaProjects%2Fhomepage%2Fsrc%2Fimg%2F2.png)
+![2.png]
 
 - ## STACK 📊 
-![3.png](..%2F..%2F..%2F..%2FIdeaProjects%2Fhomepage%2Fsrc%2Fimg%2F3.png)
+![3.png]
 
 
 - ## DEMO 🐈
-![4.png](..%2F..%2F..%2F..%2FIdeaProjects%2Fhomepage%2Fsrc%2Fimg%2F4.png)
+![4.png]
 
 - ## CONTACT 🔥
-![5.png](..%2F..%2F..%2F..%2FIdeaProjects%2Fhomepage%2Fsrc%2Fimg%2F5.png)
+![5.png]
 
 #### 시연 영상🎬
 ---
