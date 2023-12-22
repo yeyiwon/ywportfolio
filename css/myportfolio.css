@@ -166,7 +166,7 @@ a{text-decoration: none;color: inherit;}
 .sec1 {height: 100vh; background: #fffff0;}
 .sec2{height: 100vh; padding: 1em; box-sizing: border-box;}
 .sec3{
-    /* height: 100vh; */
+    height: 100vh;
     gap: 15px;
     display: flex;
     background: #fffff0;
@@ -437,13 +437,13 @@ a{text-decoration: none;color: inherit;}
 }
 
 .sec3boxbot{
-  box-sizing: border-box;
+    box-sizing: border-box;
     padding: 2rem;
-    width: 95%;
+    width: 100%;
     display: flex;
     gap: 20px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
 }
 
@@ -606,10 +606,10 @@ input {background-color: rgba(255, 255, 255, 0);}
 
 .indexbutton {
     width: 150px;
-    height: 60px;
+    height: 55px;
     font-size: 20px;
     text-align: center;
-    line-height: 60px;
+    line-height: 55px;
     border-radius: 10px;
     background: linear-gradient(145deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3)), #fffff0;
     background-blend-mode: soft-light, normal;
