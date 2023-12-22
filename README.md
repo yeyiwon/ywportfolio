@@ -47,13 +47,11 @@
 ![7.png](img%2F7.png)
 
 #### 시연 영상🎬
-
+![포폴시연영상.gif](img%2F%ED%8F%AC%ED%8F%B4%EC%8B%9C%EC%97%B0%EC%98%81%EC%83%81.gif)
 
 ---
 
 
 
 <br>
-
-
 
