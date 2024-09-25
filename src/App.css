@@ -11,6 +11,10 @@
         @apply bg-gray-800 text-slate-100;
     }
 }
+
+li{
+    @apply whitespace-nowrap cursor-pointer
+}
 .header {
     @apply fixed top-0 left-0 w-full flex items-center justify-between p-4 bg-slate-100 dark:bg-slate-800 z-50;
 }
@@ -46,7 +50,7 @@
 }
 
 .section {
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 64px;
     display: flex;
     flex-direction: column;
@@ -64,6 +68,7 @@
 
 /* home */
 
+
 .profile_img {
     width: 180px;
     border-radius: 50%;
@@ -72,6 +77,9 @@
 }
 .home_title {
     @apply flex flex-col items-center sm:flex-row gap-6;
+}
+.home_title{
+    height: 400px;
 }
 
 .Certificate{

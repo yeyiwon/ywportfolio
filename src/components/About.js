@@ -7,7 +7,7 @@ const About = () =>{
 return(
         <div>
 
-        <div id="About" className='flex flex-col gap-4' style={{ paddingTop: '64px' }}>
+        <div id="About" className='flex flex-col gap-4'>
             <div className='section_title'>
                 <h2>👩🏻‍💻 About Me</h2>
             </div>

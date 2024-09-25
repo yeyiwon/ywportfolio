@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
-import About from './components/About'
+// import About from './components/About'
 import Skills from './components/Skills';
 import Project from './components/Project';
 
@@ -12,12 +12,10 @@ function App() {
   return (
     <div className="app">
       <Header/>
-      <div style={{ margin: '0 auto', maxWidth: '1000px', padding: '1em', }}>
-        <div className='section' id='Home' >
+      <div style={{ margin: '0 auto', maxWidth: '800px', padding: '1em', }}>
+          
           <Home/>
-          <About/>
-        </div>
-
+          {/* <About/> */}
       <Skills/>
       <Project/>
       </div>

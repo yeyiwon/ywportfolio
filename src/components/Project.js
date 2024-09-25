@@ -120,7 +120,7 @@ const Project = () => {
     return (
         <section id="Project" className="section1">
             <div className='section_title'>
-                <h2>🙌🏻 Project Section </h2>
+                <h2>🙌🏻 Project | SideProject</h2>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {ProjectLink.map((project, index) => (
