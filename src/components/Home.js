@@ -28,8 +28,8 @@ const Home = () => {
                     <h2 className='font-bold text-xl pb-2'> 👩🏻‍💻 Education </h2>
                     <li> Name : 예이원</li>
                     <li> Birth : 1999.12.23</li>
-                    <li> Major : 관광학과 전공 소프트웨어융합학과 부전공 </li>
-                    {/* <li> 프론트엔드 교육과정 수료 </li> */}
+                    <li> Major : 관광학과 전공 </li>
+                    <li> 프론트엔드 교육과정 수료 </li>
                 </ul>
 
                 
