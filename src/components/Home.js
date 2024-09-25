@@ -23,7 +23,7 @@ const Home = () => {
             <div className='section_title'>
                 <h2>👩🏻‍💻 About Me</h2>
             </div>
-            <div className='flex gap-6 flex-col sm:flex-row justify-between text-lg'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
                 <ul className='flex flex-col gap-2 p-4 shadow-md rounded-md'>
                     <h2 className='font-bold text-xl pb-2'> 👩🏻‍💻 Education </h2>
                     <li> Name : 예이원</li>
