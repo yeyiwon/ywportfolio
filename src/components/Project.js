@@ -40,7 +40,7 @@ const ProjectLink = [
     {
         title: "☕️ PaulBasset Team Project",
         image: "./images/PaulBasset.png",
-        description: "Vue.js로 제작한 폴바셋 어플리케이션 리뉴얼을 주제로 한 프로젝트입니다",
+        description: "Vue.js로 제작한 폴바셋 앱 리뉴얼을 주제로 한 프로젝트입니다",
         skills: [
             { name: "Vue", icon: <IoLogoVue size={18} color="#3eb27f" />, className: "ReactBadge" },
             { name: "JavaScript", icon: <IoLogoJavascript size={18} color="#F7DF1E" />, className: "ReactBadge" },
@@ -128,13 +128,14 @@ const Project = () => {
                     <div key={index} className="Project_card">
                         <img src={project.image} alt={project.title} className="w-full h-52 object-cover" />
                         <div className="ProjectDetail">
-                            <h3> {project.title} 
+                        <h3 className="ProjectDetailh3"> {project.title} 
                         {project.isTeamProject ? (
                             <span className="TeamProject">팀 프로젝트</span>
                         ) : (
                             <span className="ProjectType">개인 프로젝트</span>
                         )}
                         </h3>
+                        
                         <p className="text-gray-700 text-sm">{project.description}</p>
                         <p className="text-gray-500 text-xs">{project.duration}</p>
                         

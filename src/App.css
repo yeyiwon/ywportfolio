@@ -114,14 +114,14 @@ li{
 
 /* Project */
 .Project_card {
-    @apply flex flex-col justify-between shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition-shadow duration-300;
+    @apply flex flex-col shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition-shadow duration-300;
 }
 
 .ProjectDetail{
     @apply flex flex-col gap-4 justify-between p-4;
 }
 
-.ProjectDetail h3{
+.ProjectDetailh3{
     @apply text-lg font-semibold text-gray-600 dark:text-slate-100 cursor-default
 }
 .ProjectDetail p{
