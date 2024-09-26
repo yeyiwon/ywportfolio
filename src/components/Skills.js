@@ -37,7 +37,6 @@ const Skills = () => {
             <div className='flex flex-col'>
                 <div className='skill_box_wrap'>
                     <h2> <FaCode color='#F24E1E'/> Languages</h2>
-                    <h3>많이 사용해봤어요</h3>
                     <ul className='Skill_box'>
                         <li> <FaHtml5 size={25} color="#E44D26" /> HTML </li>
                         <li> <FaCss3Alt size={25} color="#1572B6" /> CSS </li>

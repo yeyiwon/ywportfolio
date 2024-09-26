@@ -29,7 +29,7 @@ const ProjectLink = [
         ],
         links: [
             { label: "사이트 바로 가기", url: "https://mysnsproject-77f84.web.app/", icon: <FaLink color="#fff"/> },
-            { label: "깃허브", url: "https://github.com/yeyiwon/myreactApp", icon: <FaGithub color="#fff"/> },
+            { label: "깃허브", url: "https://github.com/yeyiwon/myreactApp", icon: <FaGithub color="#fff "/> },
             { label: "PDF", url: "./pdfs/MySNSpptfile(최종).pdf", icon: <FaRegFilePdf color="#fff"/>  }
         ],
         isTeamProject: false,
@@ -58,7 +58,7 @@ const ProjectLink = [
     },
     {
         title: "🥯 LondonBagle museum",
-        image: "./images/런던베이글.png",
+        image: "./images/london.png",
         description: "런던베이글 사이트 자체제작 웹퍼플리싱 프로젝트입니다.",
         skills: [
             { name: "HTML", icon: <FaHtml5 size={22} color="#E44D26" /> },
