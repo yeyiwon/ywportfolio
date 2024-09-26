@@ -11,7 +11,7 @@ import { BiLogoJquery } from "react-icons/bi";
 import { FaRegFilePdf } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa6";
-
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { FaJava } from "react-icons/fa6";
 import { GrOracle } from "react-icons/gr";
 import { SiMysql } from "react-icons/si";
@@ -119,17 +119,16 @@ const ProjectLink = [
 
 const Project = () => {
     return (
-        <section id="Project" className="section1">
+        <section id="Project" className="section">
             <div className='section_title'>
-                <h2>⚒️  Project</h2>
+                <h2> <AiOutlineFundProjectionScreen/> Project</h2>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {ProjectLink.map((project, index) => (
                     <div key={index} className="Project_card">
                         <img src={project.image} alt={project.title} className="w-full h-52 object-cover" />
-                        <div className="flex flex-col gap-4 justify-between p-4" >
-                            <h3 className="text-lg font-semibold text-gray-600"> {project.title} 
-                        
+                        <div className="ProjectDetail">
+                            <h3> {project.title} 
                         {project.isTeamProject ? (
                             <span className="TeamProject">팀 프로젝트</span>
                         ) : (
@@ -150,7 +149,9 @@ const Project = () => {
                         <div className="flex flex-wrap gap-2">
                             {project.links.map((link, idx) => (
                                 <div key={idx} className="LinkBtn">
-                                    <a href={link.url} target="_blank" className="flex items-center gap-2">
+                                    <a href={link.url} target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="flex items-center gap-2">
                                         {link.icon}
                                         {link.label}</a>
                                 </div>

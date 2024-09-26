@@ -10,6 +10,7 @@ import { FaCss3Alt } from "react-icons/fa6";
 import { BiLogoJquery } from "react-icons/bi";
 
 import { FaCode } from "react-icons/fa6";
+import { FaTools } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa";
 import { SiVuetify } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -17,6 +18,9 @@ import { SiIntellijidea } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
 import { SiVisualstudiocode } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
+
+
+import { IoLibrary } from "react-icons/io5";
 
 import { FaJava } from "react-icons/fa6";
 import { GrOracle } from "react-icons/gr";
@@ -30,10 +34,9 @@ const Skills = () => {
                 <h2> 📚 Skills </h2>
             </div>
 
-            <div>
-                {/* 많이 사용해본 것들 */}
+            <div className='flex flex-col'>
                 <div className='skill_box_wrap'>
-                    <h2> <FaCode/> Languages</h2>
+                    <h2> <FaCode color='#F24E1E'/> Languages</h2>
                     <h3>많이 사용해봤어요</h3>
                     <ul className='Skill_box'>
                         <li> <FaHtml5 size={25} color="#E44D26" /> HTML </li>
@@ -52,20 +55,20 @@ const Skills = () => {
                 </div>
 
                 <div className='skill_box_wrap'>
-                    <h2> Used Frameworks & Libraries </h2>
+                    <h2> <IoLibrary color='#0078d4'/> Used Frameworks & Libraries </h2>
                     <ul className='Skill_box'>
                         <li> <FaReact color="rgb(0, 255, 255)" /> React </li>
                         <li> <IoLogoVue size={25} color="#3eb27f" /> Vue.js </li>
                         <li> <BiLogoJquery size={25} color="#0769AD" /> jQuery </li>
                         <li> <SiFirebase size={25} color="#ff9103" /> Firebase </li>
                         <li><SiVuetify size={22} color="#0769AD"/> Vuetify </li>
-                        <li> Material UI </li>
+                        <li><img src="./images/material.png" alt="" />Material UI </li>
                         <li> <RiTailwindCssFill size={25} color="#38b2ac" /> Tailwind CSS </li>
                     
                     </ul>
                 </div>
                 <div className='skill_box_wrap'>
-                    <h2> Tools </h2>
+                    <h2> <FaTools size={20}/> Tools </h2>
                     <ul className='Skill_box'>
                         <li> <FaGithub color="#000"/> GitHub </li>
                         
@@ -78,7 +81,7 @@ const Skills = () => {
                 </div>
 
                 <div className='skill_box_wrap'>
-                    <h2>Backend</h2>
+                    <h2><FaCode color='#F24E1E'/> Backend</h2>
                     <h3> 사용해봤어요 </h3>
                     <ul className='Skill_box'>
                         <li> <SiMysql size={25} color="#4479A1" /> MySQL </li>

@@ -12,14 +12,14 @@ return(
             </div>
             <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm'>
                 <div className='AboutMe'>
-                    <h2 className='font-bold text-xl py-2'> 🙂 About Me </h2>
+                    <h2> 🙂 About Me </h2>
                     <ul>
                         <li className='font-bold'> Name : 예이원</li>
                         <li className='font-bold'> Birth : 1999.12.23</li>
                     </ul>
                 </div>
                 <div className='AboutMe'>
-                    <h2 className='font-bold text-xl py-2'> 🎓  Education </h2>
+                    <h2> 🎓  Education </h2>
                     <ul>
                     <li className='whitespace-pre-wrap'>
                         <span className='Certificate'>2024.09.26</span>
@@ -38,7 +38,7 @@ return(
                 </ul>
                 </div>
                 <div className='AboutMe'>
-                    <h2 className='font-bold text-xl py-2'>🧾 Certifications</h2>
+                    <h2>🧾 Certifications</h2>
                     <ul>
                         <li>
                             <span className='Certificate'> 2023.06.09</span>정보처리기사
@@ -58,7 +58,7 @@ return(
                     </ul>
                 </div>
                 <div className='AboutMe'>
-                    <h2 className='font-bold text-xl py-2'>📬 Find Me Online</h2>
+                    <h2>📬 Find Me Online</h2>
                 <ul>
                     <li>
                         <a href="mailto:4576874@naver.com" target="_blank" className="contactLink">
@@ -67,7 +67,7 @@ return(
                     </li>
                     
                     <li>
-                        <a href="https://github.com/yeyiwon" target="_blank" className="contactLink"><FaGithub className="text-black mr-2" size={16} /> GitHub
+                        <a href="https://github.com/yeyiwon" target="_blank" className="contactLink"><FaGithub className="dark:text-white text-black mr-2" size={16} /> GitHub
                         </a>
                     </li>
                     <li>
