@@ -21,7 +21,7 @@ return(
                 <div className='AboutMe'>
                     <h2> 🎓  Education </h2>
                     <ul>
-                    <li className='whitespace-pre-wrap'>
+                    <li className='whitespace-pre-wrap leading-relaxed'>
                         <span className='Certificate'>2024.09.26</span>
                         그린컴퓨터아카데미 프로젝트기반 
                         <br/>
@@ -32,7 +32,7 @@ return(
                     <li className='whitespace-pre-wrap'>
                         <span className='Certificate'>2023.12.28</span>
                         KH정보교육원
-                        (디지털컨버전스)공공데이터 융합 <br/> 자바개발자 양성과정 A30(9)
+                        (디지털컨버전스)공공데이터 융합 <br/> 자바개발자 양성과정 A30(9) 수료
                     </li>
                     <li><span className='Certificate'>2022.02</span>관광학과 졸업</li>
                 </ul>

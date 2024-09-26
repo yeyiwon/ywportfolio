@@ -16,10 +16,8 @@ const Home = () => {
                     </h1>
                     <p className='font-bold py-1 text-xl whitespace-pre-wrap' > 
                     안녕하세요! 
-
-
                     프론트엔드 개발자 예이원이라고합니다 </p>
-                    <p className='text-sm whitespace-pre-wrap'>
+                    <p className='text-base whitespace-pre-wrap'>
                         급변하는 기술의 시대 속에서, 
 
                         항상 효율적인 코드를 작성하고 문제를 해결하기 위해,

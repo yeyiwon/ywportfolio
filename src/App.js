@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="app">
       <Header/>
-      <div style={{ margin: '0 auto', maxWidth: '800px', padding: '1em', }}>
+      <div style={{ margin: '0 auto', maxWidth: '1000px', padding: '1em', }}>
           
           <Home/>
           <About/>
