@@ -2,7 +2,7 @@
 
 # [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=THANKYOU+FOR+VISIT;HAVE+A+GOOD+DAY🥰)](https://git.io/typing-svg)
 
-## 🐈 예이원 종합포트폴리오 
+### 🐈 예이원 종합포트폴리오 
 
     - 기획 및 제작: 예이원
 
@@ -10,10 +10,8 @@
 
     - React
 
-## 👀 페이지 구성 
+### 👀 페이지 구성 
 
-- ## ABOUT ME 🙈
-
-- ## SKill 📊
-  
-- ## Project 🐈
+- **ABOUT ME** 🙈
+- **SKill** 📊
+- **Project** 🐈
