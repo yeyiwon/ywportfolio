@@ -1,59 +1,86 @@
 import React from 'react'
 import { FaGithub } from 'react-icons/fa';
-import { RiKakaoTalkFill } from 'react-icons/ri'; 
+import { SiVelog } from "react-icons/si";
 import { SiNaver } from 'react-icons/si'; 
 
 const About = () =>{
 return(
-        <div>
-
-        <div id="About" className='flex flex-col gap-4'>
+        <section id="About" className='section'>
+            <div className='flex flex-col gap-4'>
             <div className='section_title'>
-                <h2>👩🏻‍💻 About Me</h2>
+                <h2>👩🏻‍💻 About</h2>
             </div>
-            <div className='flex gap-6 flex-col sm:flex-row justify-between text-lg'>
-                <ul className='flex flex-col gap-2 p-4 shadow-md rounded-md'>
-                    <h2 className='font-bold text-xl pb-2'> 👩🏻‍💻  </h2>
-                    <li>Name : 예이원</li>
-                    <li> Birth : 1999.12.23</li>
-                    <li> Major : 관광학과 전공 </li>
+            <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm'>
+                <div className='AboutMe'>
+                    <h2 className='font-bold text-xl py-2'> 🙂 About Me </h2>
+                    <ul>
+                        <li className='font-bold'> Name : 예이원</li>
+                        <li className='font-bold'> Birth : 1999.12.23</li>
+                    </ul>
+                </div>
+                <div className='AboutMe'>
+                    <h2 className='font-bold text-xl py-2'> 🎓  Education </h2>
+                    <ul>
+                    <li className='whitespace-pre-wrap'>
+                        <span className='Certificate'>2024.09.26</span>
+                        그린컴퓨터아카데미 프로젝트기반 
+                        <br/>
+                        프론트엔드(React, Vue) 
+                        <br/>
+                        웹&앱 SW개발자 양성과정 15회차 수료
+                    </li>
+                    <li className='whitespace-pre-wrap'>
+                        <span className='Certificate'>2023.12.28</span>
+                        KH정보교육원
+                        (디지털컨버전스)공공데이터 융합 <br/> 자바개발자 양성과정 A30(9)
+                    </li>
+                    <li><span className='Certificate'>2022.02</span>관광학과 졸업</li>
                 </ul>
-
-                
-                <ul className='flex flex-col gap-2 p-4 shadow-md rounded-md'>
-                    <h2 className='font-bold text-xl pb-2'>🧾 Certificate</h2>
-
-                    <li>
-                        <span className='Certificate'> 2023.06.09</span>정보처리기사
-                        
+                </div>
+                <div className='AboutMe'>
+                    <h2 className='font-bold text-xl py-2'>🧾 Certifications</h2>
+                    <ul>
+                        <li>
+                            <span className='Certificate'> 2023.06.09</span>정보처리기사
+                            
+                            </li>
+                        <li>
+                            <span className='Certificate'> 2022.07.01 </span>  리눅스 마스터 2급</li>
+                        <li> 
+                            <span className='Certificate'> 2021.12.21 </span>  네트워크 관리사 2급
                         </li>
+                        <li> 
+                            <span className='Certificate'> 2021.05.10 </span> 운전면허 2종 보통
+                        </li>
+                        <li> 
+                            <span className='Certificate'> 2020.04.18 </span>  MOS
+                        </li>
+                    </ul>
+                </div>
+                <div className='AboutMe'>
+                    <h2 className='font-bold text-xl py-2'>📬 Find Me Online</h2>
+                <ul>
                     <li>
-                        <span className='Certificate'> 2022.07.01 </span>  리눅스 마스터 2급</li>
-                    <li> 
-                        <span className='Certificate'> 2021.12.21 </span>  네트워크 관리사 2급</li>
-                </ul>
-                    
-                <ul className='flex flex-col gap-2 p-4 shadow-md rounded-md'>
-                    <h2 className='font-bold text-xl pb-2'>📬 Contact</h2>
-                    <li>
-                        <a href="mailto:4576874@naver.com" className="contactLink">
+                        <a href="mailto:4576874@naver.com" target="_blank" className="contactLink">
                         <SiNaver className="text-green-600 mr-2" size={12} /> 4576874@naver.com
                         </a>
                     </li>
+                    
                     <li>
-                        <a href="https://github.com/yeyiwon" className="contactLink"><FaGithub className="text-black mr-2" size={16} /> GitHub
+                        <a href="https://github.com/yeyiwon" target="_blank" className="contactLink"><FaGithub className="text-black mr-2" size={16} /> GitHub
                         </a>
                     </li>
                     <li>
-                        <a href="" className="contactLink">
-                        <RiKakaoTalkFill className="text-yellow-500 mr-2" size={16} /> 오픈 카카오톡
+                        <a href="https://velog.io/@yeyiwon/series" target="_blank" className="contactLink">
+                        <SiVelog className="text-green-400 mr-2" size={16} /> Velog
                         </a>
                     </li>
                 </ul>
+                </div>
             </div>
-        </div>
+            </div>
     
-    </div>
+    </section>
 )
 
 }

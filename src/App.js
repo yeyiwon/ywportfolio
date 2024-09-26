@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
-// import About from './components/About'
+import About from './components/About'
 import Skills from './components/Skills';
 import Project from './components/Project';
 
@@ -15,7 +15,7 @@ function App() {
       <div style={{ margin: '0 auto', maxWidth: '800px', padding: '1em', }}>
           
           <Home/>
-          {/* <About/> */}
+          <About/>
       <Skills/>
       <Project/>
       </div>
