@@ -1,7 +1,6 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
-import { SiNaver } from 'react-icons/si'; 
-import { SiVelog } from "react-icons/si";
+import { ReactTyped as Typed } from 'react-typed';
+
 
 const Home = () => {
     return (
@@ -11,9 +10,13 @@ const Home = () => {
                     <img src="./images/Yeyiwon.png" alt="" />
                 </div>
                 <div>
-                    <h1 className="text_gradient">
-                        Ye2w PortFolio
-                    </h1>
+                    <Typed
+                        strings={['Ye2w PortFolio', 'Thank you for visiting!']} 
+                        typeSpeed={70}
+                        backSpeed={70}
+                        loop
+                        className="text_gradient"
+                    />
                     <p className='font-bold py-1 text-xl whitespace-pre-wrap' > 
                     안녕하세요! 
                     프론트엔드 개발자 예이원이라고합니다 </p>
