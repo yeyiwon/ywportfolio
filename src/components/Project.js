@@ -16,11 +16,30 @@ import { FaJava } from "react-icons/fa6";
 import { GrOracle } from "react-icons/gr";
 import { SiMysql } from "react-icons/si";
 import { SiApachetomcat } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const ProjectLink = [
     {
+        title: "모여봐요 동물의 숲 도감",
+        icon: "./images/AnimalCrossingLogo.png", 
+        image: "./images/AnimalCrossingLogo.png",
+        description: "외부 API 데이터 불러오기 연습",
+        skills: [
+            { name: "React", icon: <FaReact color="rgb(0, 255, 255)" />, className: "ReactBadge" },
+            { name: "Tailwind CSS", icon: <RiTailwindCssFill color="#38b2ac" />, className: "ReactBadge" },
+        ],
+        links: [
+            { label: "사이트 바로 가기", url: "https://animal-crossing-three.vercel.app/", icon: <FaLink color="#fff"/> },
+            { label: "깃허브", url: "https://github.com/yeyiwon/AnimalCrossing", icon: <FaGithub color="#fff "/> },
+        ],
+        isTeamProject: false,
+        isToyProject: true, 
+        duration: "2024.10. ~ 진행 중",
+    },
+    {
         title: "😎 MySNSProject",
         image: "./images/MySnS.png",
+        icon: null, 
         description: "React와 TypeScipt를 활용한 SNS 프로젝트입니다.",
         skills: [
             { name: "React", icon: <FaReact color="rgb(0, 255, 255)" />, className: "ReactBadge" },
@@ -128,12 +147,16 @@ const Project = () => {
                     <div key={index} className="Project_card">
                         <img src={project.image} alt={project.title} className="w-full h-52 object-cover" />
                         <div className="ProjectDetail">
-                        <h3 className="ProjectDetailh3"> {project.title} 
-                        {project.isTeamProject ? (
-                            <span className="TeamProject">팀 프로젝트</span>
-                        ) : (
-                            <span className="ProjectType">개인 프로젝트</span>
-                        )}
+                        <h3 className="ProjectDetailh3">
+                            {/* <img src={project.icon}  alt="" /> */}
+                            {project.title} 
+                            {project.isTeamProject ? (
+                                <span className="TeamProject">팀 프로젝트</span>
+                            ) : project.isToyProject ? (
+                                <span className="ToyProject">토이 프로젝트</span>
+                            ) : (
+                                <span className="ProjectType">개인 프로젝트</span>
+                            )}
                         </h3>
                         
                         <p className="text-gray-700 text-sm">{project.description}</p>

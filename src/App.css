@@ -122,12 +122,14 @@ li{
 }
 
 .ProjectDetailh3{
-    @apply text-lg font-semibold text-gray-600 dark:text-slate-100 cursor-default
+    @apply text-lg flex items-center font-semibold text-gray-600 dark:text-slate-100 cursor-default
 }
 .ProjectDetail p{
     @apply text-sm dark:text-slate-100 cursor-default
 }
-
+.ProjectDetailh3 img{
+    @apply w-8 
+}
 .badge{
     @apply flex items-center gap-1 border rounded-lg px-2 py-1 bg-gray-100 text-xs text-slate-800 cursor-default dark:bg-slate-800 dark:text-slate-100
 }
@@ -142,6 +144,9 @@ li{
 }
 .TeamProject{
     @apply bg-teal-50 text-zinc-700 rounded-md p-1 text-xs ml-2 cursor-default;
+}
+.ToyProject{
+    @apply bg-slate-700 text-slate-100 rounded-md p-1 text-xs ml-2 cursor-default;
 }
 
 /*  Skill */
