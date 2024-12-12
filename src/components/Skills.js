@@ -18,7 +18,7 @@ import { SiIntellijidea } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
 import { SiVisualstudiocode } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
-
+import { SiNextdotjs } from "react-icons/si";
 
 import { IoLibrary } from "react-icons/io5";
 
@@ -57,6 +57,7 @@ const Skills = () => {
                     <h2> <IoLibrary color='#0078d4'/> Used Frameworks & Libraries </h2>
                     <ul className='Skill_box'>
                         <li> <FaReact color="rgb(0, 255, 255)" /> React </li>
+                        <li> <SiNextdotjs size={22} color="#000" /> Next.js </li>
                         <li> <IoLogoVue size={25} color="#3eb27f" /> Vue.js </li>
                         <li> <BiLogoJquery size={25} color="#0769AD" /> jQuery </li>
                         <li> <SiFirebase size={25} color="#ff9103" /> Firebase </li>
