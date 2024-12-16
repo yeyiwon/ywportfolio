@@ -39,25 +39,6 @@ const ProjectLink = [
         testPassword: "test1324*A", 
     },
     {
-        title: "☕️ PaulBasset Team Project",
-        image: "./images/PaulBasset.png",
-        description: "Vue.js로 제작한 폴바셋 앱 리뉴얼을 주제로 한 프로젝트입니다",
-        skills: [
-            { name: "Vue", icon: <IoLogoVue size={18} color="#3eb27f" />, className: "ReactBadge" },
-            { name: "JavaScript", icon: <IoLogoJavascript size={18} color="#F7DF1E" />, className: "ReactBadge" },
-            { name: "Firebase", icon: <SiFirebase size={20} color="#ff9103" /> }
-        ],
-        links: [
-            { label: "사이트 바로 가기", url: "https://paulbassett-42763.web.app/", icon: <FaLink color="#fff"/> },
-            { label: "깃허브", url: "https://github.com/yeyiwon/PaulBassetTeamProject", icon: <FaGithub color="#fff"/> },
-            { label: "PDF", url: "./pdfs/폴바셋리뉴얼.pdf", icon: <FaRegFilePdf color="#fff"/> }
-        ],
-        isTeamProject: true,
-        duration: "2024.07.25 ~ 2024.08.14",
-        testId: "test@gmail.com",
-        testPassword: "test1324*A", 
-    },
-    {
         title: "🥯 LondonBagle museum",
         image: "./images/london.png",
         description: "런던베이글 사이트 자체제작 웹퍼플리싱 프로젝트입니다.",

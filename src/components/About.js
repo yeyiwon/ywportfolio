@@ -49,9 +49,9 @@ return(
                         <li> 
                             <span className='Certificate'> 2021.12.21 </span>  네트워크 관리사 2급
                         </li>
-                        <li> 
+                        {/* <li> 
                             <span className='Certificate'> 2021.05.10 </span> 운전면허 2종 보통
-                        </li>
+                        </li> */}
                         <li> 
                             <span className='Certificate'> 2020.04.18 </span>  MOS
                         </li>
