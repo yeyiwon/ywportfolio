@@ -29,11 +29,11 @@ return(
                         <br/>
                         웹&앱 SW개발자 양성과정 15회차 수료
                     </li>
-                    <li className='whitespace-pre-wrap'>
+                    {/* <li className='whitespace-pre-wrap'>
                         <span className='Certificate'>2023.12.28</span>
                         KH정보교육원
                         (디지털컨버전스)공공데이터 융합 <br/> 자바개발자 양성과정 A30(9) 수료
-                    </li>
+                    </li> */}
                     <li><span className='Certificate'>2022.02</span>관광학과 졸업</li>
                 </ul>
                 </div>
@@ -58,7 +58,7 @@ return(
                     </ul>
                 </div>
                 <div className='AboutMe'>
-                    <h2>📬 Find Me Online</h2>
+                    <h2>📬 Online</h2>
                 <ul>
                     <li>
                         <a href="mailto:4576874@naver.com" target="_blank" className="contactLink">
@@ -70,11 +70,11 @@ return(
                         <a href="https://github.com/yeyiwon" target="_blank" className="contactLink"><FaGithub className="dark:text-white text-black mr-2" size={16} /> GitHub
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="https://velog.io/@yeyiwon/series" target="_blank" className="contactLink">
                         <SiVelog className="text-green-400 mr-2" size={16} /> Velog
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
                 </div>
             </div>
